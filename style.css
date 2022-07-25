@@ -1,0 +1,232 @@
+*{
+    margin: 0ch;
+    padding: 0ch;
+}
+a{
+    text-decoration: none;
+}
+.gray-container{
+    border: 2px solid gray;
+    border-radius: 30px;
+    background-color: rgb(71, 68, 65);
+}
+
+.gray{
+    color: gray;
+}
+.white{
+    color: wheat;
+}
+
+.profile-container{
+    margin: 50px 10px 50px 50px;
+    width: 250px;
+    height: 540px;
+}
+
+.image{
+    position: relative;
+    margin: 50px 50px 10px 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    object-fit: cover;
+
+}
+
+#name{
+    margin: 5px 60px;
+}
+
+.content{
+    position: relative;
+    top: 5px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: baseline;
+}
+
+.marg{
+    margin: 10px 20px; 
+
+}
+.zindex{
+    z-index: 1px;
+}
+.berfi{
+    right: 0px;
+    border-radius: 0px 30px 0px 30px;
+    background-color: rgb(88, 86, 86);
+}
+.navigation{
+    width: 400px;
+    display: flex;
+    justify-content:space-evenly;
+} 
+.margin-nav{
+    margin: 2px;
+}
+.contect-card{
+    padding: 25px;
+    text-align: center;
+}
+@media screen and (min-width: 950px){
+    body{
+        background-color: rgb(35, 28, 28);
+        display: flex;
+
+    }
+    .p-card{
+        margin: 2%;
+        position: relative;
+        width: 35%;
+        height: 80%;
+    }
+    
+}
+@media screen and (max-width: 950px){
+    body{
+        background-color: rgb(35, 28, 28);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .p-card{
+        margin: 2%;
+        position: relative;
+        width: 80%;
+        height: 60%;
+    }
+
+    .profile{
+        display: flex;
+        justify-content: left;
+    }
+    
+    .profile-container{
+        width: auto;
+        height: auto;
+        display: flex;
+        padding-bottom: 25px;
+        margin-right: 50px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .content{
+        position: relative;
+        display: flex;
+        flex-direction: column; 
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    
+    .invisibale{
+        display: none;
+    }
+
+    .getBottom{
+        bottom : 10px;
+    }
+
+}
+
+@media  screen and (max-width: 700px){
+    .image{
+        margin: 50px 50px 10px 50px;
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .p-card{
+        margin: 2%;
+        position: relative;
+        width: 80%;
+        height: 80%;
+    }
+
+    .profile-container{
+        width: auto;
+        height: auto;
+        display: flex;
+        padding-bottom: 25px;
+        margin-right: 50px;
+
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .content{
+        margin-left: 25px;
+    }
+
+    .invisibale{
+        display: none;
+    }
+
+    .navigation{
+        width: 200px;
+    } 
+    .margin-nav{
+        margin: 1px;
+        font-size: 10px;
+    }
+
+    .navigation{
+        width: 300px;
+        font-size:x-small;
+    } 
+    .margin-nav{
+        margin: 1px;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px){
+    #name{
+        margin: 5px 30px;
+    }
+
+    
+}
+
+.img-button{
+    position: relative;
+    margin: 15px 20px;
+    display: inline-block;
+    font-size: xx-large;
+    object-fit: cover;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: left;
+}
+
+.font-sz{
+    font-size: xx-small;
+    margin-left: 10px;
+}
+.profile-data{
+    position: relative;
+    margin: 50px 50px 50px 10px;
+    width: 95%;
+    height: fit-content;
+}
+
+.margin-50{
+    margin: 25px;
+}
+
+.top-buttom-margin-20px{
+    margin: 20px 0px;
+}
+
+
+
